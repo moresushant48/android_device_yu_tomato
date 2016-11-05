@@ -22,3 +22,10 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
 # Inherit from proprietary files
 -include vendor/yu/tomato/BoardConfigVendor.mk
+
+ Optimizations
+ STRICT_ALIASING := false
+ CLANG_O3 := true
+ ENABLE_GCCONLY := true
+ GRAPHITE_OPTS := false
+ USE_PIPE := true
