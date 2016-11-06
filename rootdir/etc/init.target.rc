@@ -40,7 +40,7 @@ on boot
     chown system system /sys/class/leds/blue/led_time
 
     # Touchscreen
-    chown system system /sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl
+    chown root system /sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl
     chmod 0660 /sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl
     chown system system /sys/devices/virtual/touchscreen/touchscreen_dev/mode
     chmod 0660 /sys/devices/virtual/touchscreen/touchscreen_dev/mode
